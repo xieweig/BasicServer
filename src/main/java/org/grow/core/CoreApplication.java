@@ -33,7 +33,7 @@ public class CoreApplication {
     }
 
     private ApiInfo apiInfo(){
-        return new ApiInfoBuilder().title("Spring Boot中使用Swagger构建Rest Api version2")
+        return new ApiInfoBuilder().title("Spring Boot中使用Swagger构建Rest Api version 3")
                 .version("1.0").build();
     }
     @Bean
